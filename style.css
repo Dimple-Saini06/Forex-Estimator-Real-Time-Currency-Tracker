@@ -50,6 +50,12 @@ p {
     align-items: center; 
 } 
 
+.select-container {
+    padding:10px;
+    border : 1px solid #bdb9b9;
+    border-radius: 7%;
+}
+
 select {
     outline : none;
     border : none; 
@@ -58,4 +64,25 @@ select {
 
 img {
     width : 2rem;
+}
+
+i {
+    font-size : 1.5rem;
+    margin-top :7%;
+}
+
+.msg {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+button {
+    width : 100%;
+    padding : 10px;
+    border-radius: 10px;
+    border : none;
+    font-size : 1.2rem;
+    color : white;
+    background-color: rgb(144, 67, 182);
 }
